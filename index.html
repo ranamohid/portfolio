@@ -21,9 +21,6 @@
     border-bottom: 2px solid #f5f1f1;
     }
 
-    
-
-
     .navbar-item img {
         max-height: 80px;
     }
@@ -69,6 +66,17 @@
         background-color: #ab865b;
     }
 
+    .icon{
+        width: 80px ;
+        height: 80px;
+    }
+
+    .card{
+        margin: 30px;
+    }
+    .content1{
+        margin: 30px;
+    }
     @media only screen and (max-width: 600px) {
 
     .text{
@@ -91,6 +99,15 @@
         margin-left: 20%;
         margin-top: 0%;
 
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar-burger {
+        display: none;
     }
 
     .button1{
@@ -155,13 +172,8 @@
                         </div>
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a class="button is-dark" href="#">
-                                <span style="padding-right:50px;">View Studio </span> 
-                                <span></span>
-                                <span></span>
-                                <span class="icon" >
-                                    <i class="fa fa-chevron-right"  aria-hidden="true"></i>
-                                </span>
+                            <a target="blank"class="button is-dark" href="https://www.fiverr.com/s2/62d5ce9070">
+                                <span > Hire Now </span> 
                             </a>
                         </div>
                     </div>
@@ -185,7 +197,6 @@
     </section>
     <section class="section">
         <div class="container">
-
             <div class="columns columns1 is-vcentered">
                 <div class="column is-three-fifths">
                     <img class="main-img" src="img/08.png" alt="">
@@ -206,48 +217,96 @@
             </div>
         </div>
     </section>
-    <section class="section">
+    
+    <section>
         <div class="container">
             <div class="columns">
-                <div class="column">
-                    <div class="content">
-                        <pan>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel dignissimos libero quaerat quibusdam autem debitis nisi omnis ipsam hic.
-                        </p>
-                    </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img class="icon" src="img/bulma.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">Bulma</p>
+                              <p class="subtitle is-6">Framework</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
-                <div class="column">
-                    <div class="content">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel dignissimos libero quaerat quibusdam autem debitis nisi omnis ipsam hic.
-                        </p>
+                <div class="content1">
+                    <p class="subtitle is-6 ">
+                        Bulma is a simple, elegant, and modern CSS framework that i prefer over Bootstrap, because it feels more light-weight.
+                    </p>
+                  </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img class="icon" src="img/react.svg" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <p class="title is-4">React</p>
+                          <p class="subtitle is-6">Frontend</p>
+                        </div>
+                      </div>
                     </div>
-                </div>
-                <div class="column">
-                    <div class="content">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel dignissimos libero quaerat quibusdam autem debitis nisi omnis ipsam hic.
-                        </p>
+                  </div>
+            </div>
+            <div class="content1">             
+                <p class="subtitle is-6 ">
+                    React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It's used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components
+                </p>
+                        </div>
+                      </div>
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img class="icon" src="img/django.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <p class="title is-4">Django </p>
+                          <p class="subtitle is-6">Backend</p>
+                        </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
+            </div>
+            <div class="content1">
+                <p class="subtitle is-6 ">
+                    Django is used for backend web applications based on Python, one of the top web development languages. Its main goals are simplicity, flexibility, reliability, and scalability.
+                </p>
+              </div>
+          </div>
             </div>
         </div>
+            </div>
     </section>
-    <section class="section">
-        <div class="container">
-            <nav class="level">
-                <p class="level-item has-text-centered">
-                    <img src="img/bulma.svg" alt="" style="height: 30px;">
+    
+    <div class="container" style="margin-top: 40px;">
+        <div class="columns">
+            <div class="column column1 has-text-centered ">
+                <p class="text is-size-4">
+                 Projects
                 </p>
-                <p class="level-item has-text-centered">
-                    <img src="img/django.svg" alt="" style="height: 30px;">
-                </p>  
-                <p class="level-item has-text-centered">
-                  <img src="img/react.svg" alt="" style="height: 30px;">
-                </p>
-              </nav>
         </div>
-    </section>
+        </div>
+    </div>
 
     <section class="section">
         <div class="container">
