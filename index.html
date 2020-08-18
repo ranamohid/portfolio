@@ -77,7 +77,14 @@
     .content1{
         margin: 30px;
     }
-    @media only screen and (max-width: 600px) {
+
+    .buttons2 {
+        display: none;
+    }
+    
+
+
+    @media only screen and (max-width: 900px) {
 
     .text{
         padding-left: 10%;
@@ -88,6 +95,11 @@
         margin-left: 0%;
        
     }
+
+    .buttons2 {
+     display: flex;
+    }
+
     .main-img{
         padding-left: 0;
     }
@@ -106,9 +118,6 @@
         height: 50px;
     }
 
-    .navbar-burger {
-        display: none;
-    }
 
     .button1{
         width: 500px;
@@ -151,13 +160,22 @@
                 </a>
         
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
+                    <div class="navbar-item">
+                        <div class="buttons buttons2">
+                            <a target="blank"class="button is-dark" href="https://www.fiverr.com/s2/62d5ce9070">
+                                <span > Hire Now </span> 
+                            </a>
+                        </div>
+                    </div>
+
                 </a>
+                
             </div>
+
+            
             <div class="navbar-menu">
                 <div class="navbar-end">
+                    
                     <a class="navbar-item">
                         Home
                       </a>
